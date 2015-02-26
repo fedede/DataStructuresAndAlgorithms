@@ -95,13 +95,8 @@ public class SList<E> implements IList<E> {
 			if (nodeTraveler.elem == elem){ //This checks the element in the last node.
 				return true;
 			}
-			else {
-				return false;
-			}
 		}
-		else { //Returns false if the list is empty.
-			return false;
-		}
+		return false;
 	}
 
 	/**
